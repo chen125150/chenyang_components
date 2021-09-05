@@ -7,6 +7,15 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "bugs": {
+    "url": "https://github.com/mauricius/vue-draggable-resizable/issues"
+  },
+  "homepage": "https://github.com/mauricius/vue-draggable-resizable",
+  "keywords": [
+    "vue",
+    "component",
+    "virtual"
+  ], 
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
