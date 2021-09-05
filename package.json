@@ -1,21 +1,28 @@
 {
   "name": "chenyang-components",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.2.0",
+  "private": false,
+  "license": "MIT",
+  "main": "dist/index.js",
+  "jsnext:main": "src/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "bugs": {
-    "url": "https://github.com/mauricius/vue-draggable-resizable/issues"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chen125150/chenyang_components.git"
   },
-  "homepage": "https://github.com/mauricius/vue-draggable-resizable",
+  "bugs": {
+    "url": "https://github.com/chen125150/chenyang_components/issues"
+  },
+  "homepage": "https://github.com/chen125150/chenyang_components",
   "keywords": [
     "vue",
     "component",
     "virtual"
-  ], 
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
