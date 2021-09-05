@@ -1,24 +1,14 @@
+import Vue from "vue";
+
 import virtualList from './components/virtualList.vue'
 // ...如果还有的话继续添加
 
-const components = [
-    virtualList,
-  // ...如果还有的话继续添加
-]
+const Components = {
+    virtualList
+};
 
-const install = function (Vue, opts = {}) {
-  components.map(component => {
-    Vue.component(component.name, component);
-  })
-}
+Object.keys(Components).forEach(name => {
+    Vue.component(name, Components[name]);
+});
 
-/* 支持使用标签的方式引入 */
-if (typeof window !== 'undefined' && window.Vue) {
-  install(window.Vue);
-}
-
-export default {
-  install,
-  virtualList
-  // ...如果还有的话继续添加
-}
+export default Components;

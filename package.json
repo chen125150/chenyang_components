@@ -1,14 +1,15 @@
 {
   "name": "chenyang-components",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": false,
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "./dist/my-banner.common.js",
   "jsnext:main": "src/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "package": "vue-cli-service build --target lib --name my-banner ./src/index.js"
   },
   "repository": {
     "type": "git",
